@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models
+from odoo import fields, models
 
 class Course(models.Model):
     _name = 'motorcycle_registry.course'
