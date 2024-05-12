@@ -19,10 +19,10 @@ class Course(models.Model):
                              copy=False)
 
     certificate_title = fields.binary(string='Binary File')
-    current_mileage = fields.Float(string='Current Mileage')
+    current_mileage = fields.float(string='Current Mileage')
     first_name = fields.char(string="First Name", required=True)
     last_name = fields.char(string="Last Name", required=True)
     license_platte = fields.char(string="License Plate")
-    registry_date = fields.Date(string='Registry Date')
-    registry_number = fields.Char(string='Registry Number', required=True)
+    registry_date = fields.date(string='Registry Date')
+    registry_number = fields.char(string='Registry Number', required=True)
     vin = fields.Char(string='VIN', required=True)
