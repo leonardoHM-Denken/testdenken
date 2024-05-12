@@ -1,42 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Definición de grupos de seguridad -->
-    <record id="group_motorcycle_manager" model="res.groups">
-        <field name="name">Motorcycle/Admin</field>
+    <record id="motorcycle_registry_groups_category" model="ir.module.category">
+        <field name="name">Motorcycle Registry</field>
+        <field name="description">Holds All the Diferent</field>
+        <field name="sequence">10</field>
     </record>
 
-    <record id="group_motorcycle_user" model="res.groups">
-        <field name="name">user/motorcycle</field>
+    <record id="group_registry_user" model="res.groups">
+        <field name="name">Motorcycle Registry/User</field>
+        <field name="category_id" ref="motorcycle_registry_groups_category"/>
+    </record>
+    
+    <record id="group_registry_admin" model="res.groups">
+        <field name="name">Motorcycle Registry/Admon</field>
+        <field name="implied_ids" eval="[Command.link(ref('group_registry_user'))]"/>
+        <field name="category_id" ref="motorcycle_registry_groups_category"/>
     </record>
 
-    <!-- Definición de reglas de acceso -->
-    <record id="access_course_admin" model="ir.model.access">
-        <field name="name">Course Admin Access</field>
-        <field name="model_id" ref="model_motorcycle_registry_course"/>
-        <field name="group_id" ref="group_motorcycle_manager"/>
-        <field name="perm_read" eval="True"/>
-        <field name="perm_write" eval="True"/>
-        <field name="perm_create" eval="True"/>
-        <field name="perm_unlink" eval="True"/>
-    </record>
 
-    <record id="access_course_user" model="ir.model.access">
-        <field name="name">Course User Access</field>
-        <field name="model_id" ref="model_motorcycle_registry_course"/>
-        <field name="group_id" ref="group_motorcycle_user"/>
-        <field name="perm_read" eval="True"/>
-        <field name="perm_write" eval="True"/>
-        <field name="perm_create" eval="False"/>
-        <field name="perm_unlink" eval="False"/>
-    </record>
-
-    <record id="access_course_read_all" model="ir.model.access">
-        <field name="name">Course Read All Access</field>
-        <field name="model_id" ref="model_motorcycle_registry_course"/>
-        <!-- Como no hay un grupo específico para permisos de lectura, no se especifica group_id -->
-        <field name="perm_read" eval="True"/>
-        <field name="perm_write" eval="False"/>
-        <field name="perm_create" eval="False"/>
-        <field name="perm_unlink" eval="False"/>
-    </record>
 </odoo>
