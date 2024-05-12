@@ -2,10 +2,9 @@
 
 from odoo import fields, models
 
-class MotorcycleRegistry(models.Model):
-    _name = 'motorcycle.registry'
+class Course(models.Model):
+    _name = 'motorcycle_registry.course'
     _description = 'Registro de Motocicletas'
-    _rec_name = 'registry_number'
 
     name = fields.Char(string="Title", required=True)
     active = fields.Boolean(string="Active", default=True)
