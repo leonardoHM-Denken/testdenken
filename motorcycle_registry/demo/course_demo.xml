@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
-        <!-- Definición del modelo -->
         <record id="course_01" model="motorcycle_registry.course">
             <field name="name">ERP 101</field>
             <field name="description">Learn ERP Systems</field>
             <field name="level">beginner</field>
             <field name="current_mileage">250</field>
-        </record> <!-- Agrega este cierre de registro -->
+        </record>
         
         <record id="course_02" model="motorcycle_registry.course">
             <field name="name">Accounting 200</field>

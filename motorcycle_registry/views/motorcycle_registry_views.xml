@@ -58,7 +58,7 @@
                 <field name="registry_number"/>
                 <field name="vin"/>
                 <field name="last_name"/>
-                <field name="license_plate"/> 
+                <field name="license_plate"/>
             </search>
         </field>
     </record>
