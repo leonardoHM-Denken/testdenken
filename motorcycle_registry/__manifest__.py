@@ -9,14 +9,13 @@
     """,
     'author': "LHM",
     'website': "www.odoo.com",
-    'license': 'LGPL-3',
+    'license': 'OPL-1',
     'category': 'Kawiil/registry',
-    'version': '1.0',
+    'version': '0.1',
     'depends': ['base'],
     'data': [
     ],
     'demo': [
-        'demo/course_demo.xml',
     ],
     'application': True,
 }
