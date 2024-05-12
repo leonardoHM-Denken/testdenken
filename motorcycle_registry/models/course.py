@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import fields, models
+from odoo import api, fields, models
 
 class Course(models.Model):
     _name = 'motorcycle_registry.course'
@@ -26,3 +26,10 @@ class Course(models.Model):
     registry_date = fields.Date(string='Registry Date')
     registry_number = fields.Char(string='Registry Number', required=True)
     vin = fields.Char(string='VIN', required=True)
+
+    owner_id = fields.Many2one(comodel_name='res.partner', ondelete='restrict')
+    owner_phone = fields.Char(related='owner_id.phone')
+    owner_email = fields.Char(related='owner_id.email')
+
+    make = fields.Char(compute='_compute_from_vin')
+    model = fields.Char(compute='_compute_from_vin')
