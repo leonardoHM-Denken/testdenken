@@ -9,6 +9,7 @@
     """,
     'author': "LHM",
     'website': "www.odoo.com",
+    'license': 'LGPL-3',
     'category': 'Kawiil/registry',
     'version': '1.0',
     'depends': ['base'],
