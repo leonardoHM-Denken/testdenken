@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models
+from odoo import fields, models
 
 class Course(models.Model):
     _name = 'motorcycle_registry.course'
@@ -22,7 +22,7 @@ class Course(models.Model):
     current_mileage = fields.Float(string='Current Mileage')
     first_name = fields.Char(string="First Name", required=True)
     last_name = fields.Char(string="Last Name", required=True)
-    license_platte = fields.Char(string="License Plate")
+    license_plate = fields.Char(string="License Plate")
     registry_date = fields.Date(string='Registry Date')
     registry_number = fields.Char(string='Registry Number', required=True)
     vin = fields.Char(string='VIN', required=True)

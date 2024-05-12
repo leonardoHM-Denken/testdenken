@@ -27,9 +27,7 @@
             <field name="description"></field>
             <field name="level">advanced</field>
             <field name="current_mileage">23250</field>
-            <field name="registry_date"2024-04-12</field>
+            <field name="registry_date">2024-04-12</field>
         </record>
-
-
     </data>
 </odoo>
