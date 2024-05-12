@@ -14,7 +14,7 @@
     'depends': ['base'],
     'data': [
         'security/motorcycle_registry_groups.xml',
-        'security/ir.access.model.csv',
+        'security/ir.model.access.csv',
         'security/motorcycle_registry_security.xml', 
     ],
     'demo': [
