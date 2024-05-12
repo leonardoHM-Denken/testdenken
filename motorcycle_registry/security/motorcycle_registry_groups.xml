@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Permisos para el modelo motorcycle.registry -->
-        <record id="group_motorcycle_admin " model="res.groups">
+        <record id="group_motorcycle_admin" model="res.groups">
         <field name="name">Motorcycle/Admin</field>
     </record>
 
