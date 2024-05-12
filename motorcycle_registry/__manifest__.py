@@ -15,7 +15,6 @@
     'data': [
         'security/motorcycle_registry_groups.xml',
         'security/ir.model.access.csv',
-        'security/motorcycle_registry_security.xml', 
     ],
     'demo': [
         'demo/course_demo.xml',
