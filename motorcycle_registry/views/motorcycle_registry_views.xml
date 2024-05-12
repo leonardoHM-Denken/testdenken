@@ -50,7 +50,7 @@
         </field>
     </record>
 
-        <record id="motorcycle_registry_view_search" model="ir.ui.view">
+    <record id="motorcycle_registry_view_search" model="ir.ui.view">
         <field name="name">motorcycle.registry.view.search</field>
         <field name="model">motorcycle_registry.course</field>
         <field name="arch" type="xml">
@@ -59,8 +59,6 @@
                 <field name="vin"/>
                 <field name="last_name"/>
                 <field name="license_plate"/> 
-                <field name="filter_registry_date" date="registry_date" string="Registry Date"/>
-                <field name="groupby_registry_date" string="Registry Date" context="{'group_by':'registry_date'}"/>
             </search>
         </field>
     </record>
