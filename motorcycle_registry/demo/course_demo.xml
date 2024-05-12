@@ -7,9 +7,8 @@
             <field name="description">Learn ERP Systems</field>
             <field name="level">beginner</field>
             <field name="current_mileage">250</field>
-            
-        </record>
-
+        </record> <!-- Agrega este cierre de registro -->
+        
         <record id="course_02" model="motorcycle_registry.course">
             <field name="name">Accounting 200</field>
             <field name="description">
