@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record model="ir.actions.act_window" action="registry_list_action">
+        <record model="ir.actions.act_window" id="registry_list_action">
             <field name="name">Registry</field>
             <field name="res_model">motorcycle_registry</field>
             <field name="view_mode">tree,form</field>
@@ -23,3 +23,4 @@
         </menuitem>
     </data>
 </odoo>
+
