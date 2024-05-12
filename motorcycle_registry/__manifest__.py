@@ -14,8 +14,6 @@
     'version': '1.0',
     'depends': ['base'],
     'data': [
-        'security/motorcycle_registry_groups.xml',
-        'security/ir.model.access.csv',
     ],
     'demo': [
         'demo/course_demo.xml',
