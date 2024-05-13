@@ -9,7 +9,6 @@
                     <h1><field name="registry_number"/></h1>
                 </sheet>
                 <group>
-                    <group>
                         <separator string="Motorcycle Information"/>
                         <field name="registry_date"/>
                         <field name="vin"/>
@@ -18,7 +17,6 @@
                         <separator string="Owner Information"/>
                         <field name="first_name"/>
                         <field name="last_name"/>
-                    </group>
                 </group>
                 <notebook>
                     <page string="Related Documents">
