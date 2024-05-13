@@ -23,7 +23,7 @@
                     </group>
                     <notebook>
                         <page string="Related Documents">
-                            <label for="certificate_title" string="Certificate Title"></label/>
+                            <label for="certificate_title" string="Certificate Title"/>
                             <field name="certificate_title"/>
                         </page>
                     </notebook>   

@@ -12,7 +12,7 @@ class Course(models.Model):
     description = fields.Text()
     level = fields.Selection(string="Level",
                              selection=[
-                                 ('begginer', 'Begginer'),
+                                 ('beginner', 'Beginner'),
                                  ('intermediate', 'Intermediate'),
                                  ('advanced', 'Advanced'),
                              ],
