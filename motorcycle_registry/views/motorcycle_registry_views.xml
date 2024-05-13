@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="motorcycle_registry_view_form" model="ir.ui.view">
-        <field name="name">motorcycle_registry.registry.view.form</field>
+        <field name="name">motorcycle.registry.view.form</field>
         <field name="model">motorcycle_registry.course</field>
         <field name="arch" type="xml">
             <form string="Registry View">
@@ -9,14 +9,18 @@
                     <h1><field name="registry_number"/></h1>
                 </sheet>
                 <group>
+                    <group>
                         <separator string="Motorcycle Information"/>
                         <field name="registry_date"/>
                         <field name="vin"/>
                         <field name="current_mileage"/>
                         <field name="license_plate"/>
+                    </group>
+                    <group>
                         <separator string="Owner Information"/>
                         <field name="first_name"/>
                         <field name="last_name"/>
+                    </group>
                 </group>
                 <notebook>
                     <page string="Related Documents">
@@ -29,7 +33,7 @@
     </record>
 
     <record id="motorcycle_registry_view_list" model="ir.ui.view">
-        <field name="name">motorcycle_registry.registry.view.list</field>
+        <field name="name">motorcycle.registry.view.list</field>
         <field name="model">motorcycle_registry.course</field>
         <field name="arch" type="xml">
             <tree string="Registry List">
@@ -44,7 +48,7 @@
     </record>
 
     <record id="motorcycle_registry_view_search" model="ir.ui.view">
-        <field name="name">motorcycle_registry.registry.view.search</field>
+        <field name="name">motorcycle.registry.view.search</field>
         <field name="model">motorcycle_registry.course</field>
         <field name="arch" type="xml">
             <search>
