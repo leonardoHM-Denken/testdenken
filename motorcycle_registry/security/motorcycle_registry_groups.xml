@@ -17,6 +17,4 @@
         <field name="implied_ids" eval="[Command.link(ref('group_registry_user'))]"/>
         <field name="category_id" ref="motorcycle_registry_groups_category"/>
     </record>
-
-
 </odoo>
