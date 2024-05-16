@@ -6,10 +6,11 @@
         <field name="arch" type="xml">
             <form string="Registry View">
                 <sheet>
-                    <h1><field name="registry_number"/></h1>
+                    <h1><field name="name"/></h1>
                     <group>
                         <group>
                             <separator string="Motorcycle Information"/>
+                            <field name="registry_number"/>
                             <field name="registry_date"/>
                             <field name="vin"/>
                             <field name="current_mileage"/>
