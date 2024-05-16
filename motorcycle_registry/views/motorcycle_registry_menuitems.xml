@@ -3,7 +3,7 @@
     <data>
         <record model="ir.actions.act_window" id="registry_list_action">
             <field name="name">Registry</field>
-            <field name="res_model">motorcycle_registry.course</field>
+            <field name="res_model">motorcycle_registry</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
@@ -11,6 +11,18 @@
                 </p>
             </field>
         </record>
+
+        <record model="ir.actions.act_window" id="session_list_action">
+            <field name="name">Session List</field>
+            <field name="res_model">motorcycle_registry.session</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create the first Session.
+                </p>
+            </field>
+        </record>
+
         <menuitem name="Motorcycle Registry"
             id="menu_registry"
             sequence="1"
@@ -18,7 +30,9 @@
 
             <menuitem id="menu_registry_sub" name="Motorcycle Registry" sequence="1">
                 <menuitem id="menu_academy_registry" name="Registry" sequence="2" action="registry_list_action"/>
+                <menuitem id="menu_academy_session" name="Session" sequence="3" action="session_list_action"/>
             </menuitem>
         </menuitem>
     </data>
 </odoo>
+
