@@ -1,2 +1,3 @@
 # -*- coding: utf-8 -*-
-from . import course
+from . import motorcycle_registry
+from . import session

@@ -2,7 +2,7 @@
 <odoo>
     <record id="motorcycle_registry_view_form" model="ir.ui.view">
         <field name="name">motorcycle.registry.view.form</field>
-        <field name="model">motorcycle_registry.course</field>
+        <field name="model">motorcycle_registry</field>
         <field name="arch" type="xml">
             <form string="Registry View">
                 <sheet>
@@ -35,7 +35,7 @@
 
     <record id="motorcycle_registry_view_list" model="ir.ui.view">
         <field name="name">motorcycle.registry.view.list</field>
-        <field name="model">motorcycle_registry.course</field>
+        <field name="model">motorcycle_registry</field>
         <field name="arch" type="xml">
             <tree string="Registry List">
                 <field name="registry_number"/>
@@ -50,13 +50,16 @@
 
     <record id="motorcycle_registry_view_search" model="ir.ui.view">
         <field name="name">motorcycle.registry.view.search</field>
-        <field name="model">motorcycle_registry.course</field>
+        <field name="model">motorcycle_registry</field>
         <field name="arch" type="xml">
             <search>
                 <field name="registry_number"/>
                 <field name="vin"/>
                 <field name="last_name"/>
                 <field name="license_plate"/>
+                <filter name="groupby_level" string="level" context="{'group_by':'level'}"/>
+                <filter name="groupby_regstry_date" string="Registration Date" context="{'group_by':'registry_date'}"/>
+                <filter name="filter_registry_date" date="registry_date" string="Registration Date"/>
             </search>
         </field>
     </record>

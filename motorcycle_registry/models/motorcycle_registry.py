@@ -2,9 +2,9 @@
 
 from odoo import api, fields, models
 
-class Course(models.Model):
-    _name = 'motorcycle_registry.course'
-    _description = 'Registro de Motocicletas'
+class MotorcycleRegistry(models.Model):
+    _name = 'motorcycle_registry'
+    _description = 'Motorcycle Registry'
 
     name = fields.Char(string="Title", required=True)
     active = fields.Boolean(string="Active", default=True)
@@ -33,3 +33,5 @@ class Course(models.Model):
 
     make = fields.Char(compute='_compute_from_vin')
     model = fields.Char(compute='_compute_from_vin')
+
+
