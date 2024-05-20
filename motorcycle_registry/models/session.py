@@ -5,6 +5,7 @@ class Session(models.Model):
     _description = 'Session Info'
 
     name = fields.Char(string="Name", required=True)
+    session_number = fields.Char(string="Sesion Number
     start_date = fields.Date(string="Start Date")
     duration = fields.Float(string="Duration")
     seats = fields.Integer(string="Number of Seats")
