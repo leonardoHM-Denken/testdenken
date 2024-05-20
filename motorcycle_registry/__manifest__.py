@@ -18,6 +18,7 @@
         'security/ir.model.access.csv',
         'security/motorcycle_security.xml',
         'data/session_data.xml',
+        'data/registry_data.xml',
         'views/motorcycle_registry_menuitems.xml',
         'views/motorcycle_registry_views.xml',
         'views/session_views.xml',
