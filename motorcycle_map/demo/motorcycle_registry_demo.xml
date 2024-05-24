@@ -1,0 +1,112 @@
+<odoo>
+    <record id="motorcycle_registry_demo_1" model="motorcycle.registry">
+        <field name="name">Demo Motorcycle 1</field>
+        <field name="map_location">Location 1</field>
+        <field name="launch_date">2024-01-15</field>
+        <field name="range">250</field>
+        <field name="horsepower">150</field>
+        <field name="torque">120</field>
+        <field name="top_speed">220</field>
+        <field name="battery_capacity">15</field>
+        <field name="curb_weight">200</field>
+    </record>
+    <record id="motorcycle_registry_demo_2" model="motorcycle.registry">
+        <field name="name">Demo Motorcycle 2</field>
+        <field name="map_location">Location 2</field>
+        <field name="launch_date">2024-03-22</field>
+        <field name="range">300</field>
+        <field name="horsepower">180</field>
+        <field name="torque">140</field>
+        <field name="top_speed">240</field>
+        <field name="battery_capacity">18</field>
+        <field name="curb_weight">210</field>
+    </record>
+    <record id="motorcycle_registry_demo_3" model="motorcycle.registry">
+        <field name="name">Demo Motorcycle 3</field>
+        <field name="map_location">Location 3</field>
+        <field name="launch_date">2024-05-10</field>
+        <field name="range">280</field>
+        <field name="horsepower">160</field>
+        <field name="torque">130</field>
+        <field name="top_speed">230</field>
+        <field name="battery_capacity">16</field>
+        <field name="curb_weight">205</field>
+    </record>
+    <record id="motorcycle_registry_demo_4" model="motorcycle.registry">
+        <field name="name">Demo Motorcycle 4</field>
+        <field name="map_location">Location 4</field>
+        <field name="launch_date">2024-07-18</field>
+        <field name="range">320</field>
+        <field name="horsepower">190</field>
+        <field name="torque">150</field>
+        <field name="top_speed">250</field>
+        <field name="battery_capacity">20</field>
+        <field name="curb_weight">220</field>
+    </record>
+    <record id="motorcycle_registry_demo_5" model="motorcycle.registry">
+        <field name="name">Demo Motorcycle 5</field>
+        <field name="map_location">Location 5</field>
+        <field name="launch_date">2024-09-01</field>
+        <field name="range">260</field>
+        <field name="horsepower">155</field>
+        <field name="torque">125</field>
+        <field name="top_speed">225</field>
+        <field name="battery_capacity">17</field>
+        <field name="curb_weight">210</field>
+    </record>
+    <record id="motorcycle_registry_demo_6" model="motorcycle.registry">
+        <field name="name">Demo Motorcycle 6</field>
+        <field name="map_location">Location 6</field>
+        <field name="launch_date">2024-10-15</field>
+        <field name="range">340</field>
+        <field name="horsepower">200</field>
+        <field name="torque">160</field>
+        <field name="top_speed">260</field>
+        <field name="battery_capacity">22</field>
+        <field name="curb_weight">230</field>
+    </record>
+    <record id="motorcycle_registry_demo_7" model="motorcycle.registry">
+        <field name="name">Demo Motorcycle 7</field>
+        <field name="map_location">Location 7</field>
+        <field name="launch_date">2024-11-25</field>
+        <field name="range">270</field>
+        <field name="horsepower">170</field>
+        <field name="torque">135</field>
+        <field name="top_speed">235</field>
+        <field name="battery_capacity">19</field>
+        <field name="curb_weight">215</field>
+    </record>
+    <record id="motorcycle_registry_demo_8" model="motorcycle.registry">
+        <field name="name">Demo Motorcycle 8</field>
+        <field name="map_location">Location 8</field>
+        <field name="launch_date">2024-12-30</field>
+        <field name="range">310</field>
+        <field name="horsepower">185</field>
+        <field name="torque">145</field>
+        <field name="top_speed">245</field>
+        <field name="battery_capacity">21</field>
+        <field name="curb_weight">225</field>
+    </record>
+    <record id="motorcycle_registry_demo_9" model="motorcycle.registry">
+        <field name="name">Demo Motorcycle 9</field>
+        <field name="map_location">Location 9</field>
+        <field name="launch_date">2025-01-10</field>
+        <field name="range">290</field>
+        <field name="horsepower">165</field>
+        <field name="torque">140</field>
+        <field name="top_speed">238</field>
+        <field name="battery_capacity">18</field>
+        <field name="curb_weight">212</field>
+    </record>
+    <record id="motorcycle_registry_demo_10" model="motorcycle.registry">
+        <field name="name">Demo Motorcycle 10</field>
+        <field name="map_location">Location 10</field>
+        <field name="launch_date">2025-03-15</field>
+        <field name="range">330</field>
+        <field name="horsepower">195</field>
+        <field name="torque">155</field>
+        <field name="top_speed">255</field>
+        <field name="battery_capacity">23</field>
+        <field name="curb_weight">235</field>
+    </record>
+</odoo>
